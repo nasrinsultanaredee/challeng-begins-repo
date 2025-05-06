@@ -160,3 +160,36 @@ opacity: 0.7;
 .web-item-picture {
   width: 259px;
 }
+/* Inspiration styles */
+.Inspiration {
+  width: 1140px;
+  margin-top: 90px;
+  margin-bottom: 151px;
+}
+.section-title{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0;
+}
+.section-description {
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 80px;
+}
+.section-video {
+  text-align: center;
+}
+iframe {
+  border-radius: 16px;
+}
