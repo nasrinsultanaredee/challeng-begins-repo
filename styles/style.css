@@ -237,6 +237,7 @@ font-weight: 800;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 8px;
 }
 .title-description {
   color: rgb(13, 19, 33);
@@ -246,6 +247,7 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 24px;
 }
 .title-btn {
   color: rgb(13, 19, 33);
@@ -257,4 +259,27 @@ letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
 border: none;
+}
+.target-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.target-container-box {
+  width: 1120px;
+  height: 219px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px;
+}
+.container-img {
+  width: 94px;
+  height: 108px;
+  text-align: center;
 }
